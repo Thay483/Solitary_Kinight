@@ -14,4 +14,11 @@
     //MOVIMENTAÇÃO DO DRAGÃO
     void mover_dragon();
 
+    //DESTRUIÇÕES NECESSÁRIAS
+    al_destroy_bitmap(bg);
+    al_destroy_bitmap(sprite);
+    al_destroy_font(font);
+    al_destroy_display(display);
+    al_destroy_event_queue(event_queue);
+
 #endif // S_K_RPG_H_INCLUDED

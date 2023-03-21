@@ -34,10 +34,4 @@ void mover_dragon() {
         al_draw_bitmap_region(sprite, 191 * (int)frame, current_frame_y, 191, 161, pos_x, pos_y, 0); // jogar o sprite do dragao e mudar as iamgens "animando" ele
         al_flip_display();
     }
-
-    al_destroy_bitmap(bg);
-    al_destroy_bitmap(sprite);
-    al_destroy_font(font);
-    al_destroy_display(display);
-    al_destroy_event_queue(event_queue);
 }
